@@ -1,0 +1,3 @@
+# Minimal requirements for the Othello project
+# This implementation uses standard library only. Add packages here if you want tests or extra tools.
+pytest
