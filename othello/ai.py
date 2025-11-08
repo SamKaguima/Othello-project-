@@ -82,7 +82,7 @@ class OthelloAI:
             self.tt[key] = (value, depth)
             return value
 
-    def find_best_move(self, board: Board, player: int, time_limit: float = 30.0, max_depth: int = 8) -> Optional[Tuple[int,int]]:
+    def find_best_move(self, board: Board, player: int, time_limit: float = 30.0, max_depth: int = 3) -> Optional[Tuple[int,int]]:
         # Iterative deepening
         start_time = time.time()
         best_move = None
